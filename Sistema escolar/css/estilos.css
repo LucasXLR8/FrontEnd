@@ -1,0 +1,51 @@
+body{
+    background: linear-gradient(darkred,darkblue);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.central{
+    width: 400px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.central p{
+    font-size: 16px;
+    font-family: cambria;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.central input{
+    padding: 10px 25px;
+    border-radius: 8px;
+    border: none;
+    background: lightgray;
+}
+
+.central button{
+    padding: 10px 25px;
+    background: darkred;
+    color: white;
+    border: none;
+    margin: 15px 0;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.aprovado{
+    color: blue;
+}
+
+.reprovado{
+    color: red;
+}

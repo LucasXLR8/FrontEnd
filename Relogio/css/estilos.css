@@ -1,0 +1,34 @@
+body{
+    height: 100vh;
+    background: linear-gradient(blue,purple,black);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.central{
+    width: 500px;
+    height: 200px;
+    background: linear-gradient(cyan,darkorange);
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.central div{
+    background: linear-gradient(green,blue);
+    color: black;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    padding: 10px;
+    font-size: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.central p{
+    font-size: 80px;
+}

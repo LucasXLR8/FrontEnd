@@ -1,0 +1,51 @@
+body{
+    background: linear-gradient(rgb(73, 73, 245),black);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1 {
+    font-size: 40px;
+    color: black;
+    width: 800px;
+}
+
+h2 {
+    font-size: 40px;
+    color: black;
+    width: 800px;
+
+}
+
+.caixa img {
+    width: 500px;
+    margin: auto;
+    border
+    border-radius: 49px;
+}
+
+.caixa{
+    width: 800px;
+    background: white;
+    padding: 15px;
+    border-radius: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 38px;
+}
+
+.botoes button{
+    width: 200px;
+    background: rgb(75, 75, 241);
+    color: white;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    padding: 21px;
+    justify-content: center;
+    cursor: pointer;
+}
